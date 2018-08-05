@@ -1,7 +1,5 @@
 # Angular 模块（module）
 
-
-
 ```js
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
@@ -16,7 +14,7 @@ import { AppComponent } from './app.component';
     BrowserModule // 引入相关处理模块
   ],
   providers: [], //服务
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent] //声明主组件
 })
 export class AppModule { }
 ```
