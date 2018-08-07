@@ -53,6 +53,10 @@ constructor(private productService: ProductService) {···}
 //provide:ProductService 生成token
 providers:[ProductService]
 providers:[{provide:ProductService,useClass:ProductService}] //useClass 使用 new
+// 提供器是通过token，来匹配注入器
+providers:[{provide:ProductService,useClass:AnotherProductService}]
+// 使用工厂模式初始化
+providers:[{provide:ProductServuce,useFactory:()=> {···}}]
 ```
 
 
