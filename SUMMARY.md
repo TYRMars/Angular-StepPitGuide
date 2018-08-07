@@ -8,4 +8,5 @@
   * [Angular 模块（module）](angularji-chu-zhi-shi/angular-module.md)
   * [Angular 组件（component）](angularji-chu-zhi-shi/angular-zu-jian-ff08-component.md)
   * [Angular 导航（Route）](angularji-chu-zhi-shi/angular-route.md)
+  * [Angular 依赖注入（DI）](angularji-chu-zhi-shi/angular-yi-lai-zhu-ru-ff08-di.md)
 
