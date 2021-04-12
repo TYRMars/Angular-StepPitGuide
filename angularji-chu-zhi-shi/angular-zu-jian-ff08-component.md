@@ -1,8 +1,8 @@
 # Angular 组件（component）
 
-![](/assets/component.png)
+![](../.gitbook/assets/component.png)
 
-```js
+```javascript
 import { Component } from '@angular/core';
 
 //组件源数据装饰器
@@ -15,8 +15,4 @@ export class AppComponent {
   title = 'app';
 }
 ```
-
-
-
-
 

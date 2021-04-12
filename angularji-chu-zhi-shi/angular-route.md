@@ -1,6 +1,6 @@
 # Angular 路由（Route）
 
-### 路由基本知识
+## 路由基本知识
 
 | 名称 | 简介 |
 | :---: | :---: |
@@ -10,20 +10,18 @@
 | RouterLink | 在HTML中声明路由导航的指令 |
 | ActivatedRoute | 当前激活的路由对象，保存着当前路由的信息，如路由地址，路由参数等。 |
 
-### 路由传递参数
+## 路由传递参数
 
-##### 查询参数中传递数据
+### 查询参数中传递数据
 
 * 类似`/product?id=1&name=2` =&gt; `ActivatedRoute.queryParams[id]` 这种方式
   * 目标组件中获取采用`ActivedRoute.queryParams[id]` 
 
-##### 路由路径中传递参数
+### 路由路径中传递参数
 
-* 类似`{path:/product/:id} `=&gt;` /product/1` =&gt;`ActivatedRoute.queryParams[id]`  
+* 类似`{path:/product/:id}`=&gt;`/product/1` =&gt;`ActivatedRoute.queryParams[id]`  
 
-##### 路由配置中传递数据
+### 路由配置中传递数据
 
-* 类似`{path:/product， component: ProductComponent, data:[{isProd:true}]} `=&gt;`ActivatedRoute.data[0]['isProd']`  
-
-
+* 类似`{path:/product， component: ProductComponent, data:[{isProd:true}]}`=&gt;`ActivatedRoute.data[0]['isProd']`  
 

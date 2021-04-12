@@ -1,6 +1,6 @@
 # Angular 模块（module）
 
-```js
+```javascript
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -18,6 +18,4 @@ import { AppComponent } from './app.component';
 })
 export class AppModule { }
 ```
-
-
 

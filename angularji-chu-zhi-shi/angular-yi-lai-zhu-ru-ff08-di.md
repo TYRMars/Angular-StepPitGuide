@@ -1,26 +1,26 @@
-# Angular 依赖注入（Dependency Injection）
+# Angular 依赖注入（DI）
 
-### 依赖注入
+## 依赖注入
 
 * 依赖注入：Dependency Injection 简称DI
   * 目的是如何实现控制反转，
 * 控制反转：Inversion of Control 简称IOC
   * 目的是将依赖控制权从代码内部转移到代码外部
 
-```js
+```javascript
 var product = new Prodcut();
 createShipment(product);
 ```
 
-```
+```text
 
 ```
 
-### 使用依赖注入的好处
+## 使用依赖注入的好处
 
 * 例：当一个商品，想被重复使用
 
-```js
+```javascript
 @NgModule({
     providers:[ProductService]
     // providers: []
@@ -39,17 +39,17 @@ export class ProductComponnet {
 }
 ```
 
-### 注入器与提供器
+## 注入器与提供器
 
 * 注入器
 
-```js
+```javascript
 constructor(private productService: ProductService) {···}
 ```
 
 * 提供器
 
-```js
+```javascript
 //provide:ProductService 生成token
 providers:[ProductService]
 providers:[{provide:ProductService,useClass:ProductService}] //useClass 使用 new
@@ -58,6 +58,4 @@ providers:[{provide:ProductService,useClass:AnotherProductService}]
 // 使用工厂模式初始化
 providers:[{provide:ProductServuce,useFactory:()=> {···}}]
 ```
-
-
 

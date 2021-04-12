@@ -1,4 +1,4 @@
-[![](/assets/angular.png)](https://tyrmars.gitbooks.io/anguler-steppitguide/content/)
+# 主页
 
-
+![](.gitbook/assets/angular_full_color_logo.svg.png)
 
